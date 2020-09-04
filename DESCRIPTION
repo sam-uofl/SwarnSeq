@@ -1,0 +1,19 @@
+Package: SwarnSeq
+Type: Package
+Title: Detection of Differentially Expressed Genes from Single Cell RNA-seq Data
+Version: 0.1.0
+Author: Samarendra Das
+Maintainer: Samarendra Das <samarendra.das@louisville.edu>
+Description: Performs Differential Expression (DE) analysis of  Single-Cell RNA-seq (scRNA-seq) data.
+    Also performs differential zero-inflation analysis of genes of scRNA-seq data. Further, it classifies the influential genes into various categories.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+RoxygenNote: 7.1.1
+Imports: 
+    stats,
+    MASS,
+    Matrix,
+    edgeR,
+    foreach
